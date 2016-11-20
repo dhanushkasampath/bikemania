@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "https://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.1" type="template" client="site">
+<name>Car Deluxe</name>
+<version>1.0</version>
+<creationDate>May 2013</creationDate>
+<author>Web Design Builders</author>
+<authorEmail>mail@webdesignbuilders.net</authorEmail>
+<authorUrl>http://www.webdesignbuilders.net</authorUrl>
+<copyright>Copyright (C) Web Design Builders. All Right Reserved.</copyright>
+<license>Free</license>
+<description><![CDATA[Web Design Builders Free Car Deluxe Joomla 3.6 Templates<br />Partner by Joomla Perfect]]></description>
+<files>
+<filename>index.php</filename>
+<filename>customizer.php</filename>
+<filename>component.php</filename>
+<filename>templateDetails.xml</filename>
+<filename>template_preview.png</filename>
+<filename>template_thumbnail.png</filename>
+<filename>favicon.ico</filename>
+<folder>images</folder>
+<folder>html</folder>
+<folder>css</folder>
+<folder>js</folder>
+</files>
+<positions>
+<position>header</position>
+<position>menu</position>
+<position>search</position>
+<position>banner</position>
+<position>right</position>
+<position>left</position>
+<position>footer1</position>
+<position>footer2</position>
+</positions>
+<config>
+<fields name="params">
+<fieldset name="Basic" label="Configuration">
+<field name="logo" type="media" label="Logo" default="templates/cardeluxe/images/logo.png" />
+</fieldset>
+</fields>
+</config>
+</extension>
